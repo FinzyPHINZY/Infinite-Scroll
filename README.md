@@ -1,33 +1,60 @@
-# My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# Infinite Scrolling Image Gallery
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+A beautiful and responsive web app that implements infinite scrolling, fetching random images from the Unsplash API and rendering them dynamically. Built with HTML, CSS, and JavaScript.
 
-![alt tag](http://placecorgi.com/1200/650)
+## Features
 
-## How It's Made:
+- Infinite scrolling for a seamless user experience
+- Random images fetched from the Unsplash API
+- Beautiful and responsive UI for optimal viewing on various devices
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+## Technologies Used
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+- HTML
+- CSS
+- JavaScript
 
-## Optimizations
-*(optional)*
+## Setup
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+1. Clone the repository:
 
-## Lessons Learned:
+```bash
+git clone https://github.com/your-username/infinite-scrolling-gallery.git
+```
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+2. Open the project folder:
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+```bash
+cd infinite-scrolling-gallery
+```
 
-**Palettable:** https://github.com/alecortega/palettable
+3. Open the `index.html` file in your preferred web browser.
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+## Usage
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+- Simply scroll down to load more random images from Unsplash.
+- The UI is designed to be responsive for a pleasant viewing experience on different devices.
 
+## API Key
 
+To use the Unsplash API, you will need to obtain an API key. Visit [Unsplash Developer](https://unsplash.com/developers) to create an account and generate your API key. Once you have the key, replace `YOUR_API_KEY` in the `script.js` file with your actual API key.
 
+```javascript
+const apiKey = "YOUR_API_KEY";
+```
+
+## Acknowledgements
+
+- Images provided by [Unsplash](https://unsplash.com/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Boluwatife Adeyemi
+
+Feel free to reach out for any questions or feedback!
+
+---
