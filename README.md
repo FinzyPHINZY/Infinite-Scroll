@@ -19,13 +19,13 @@ A beautiful and responsive web app that implements infinite scrolling, fetching 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/infinite-scrolling-gallery.git
+git clone https://github.com/finzyphinzy/Infinite-Scroll.git
 ```
 
 2. Open the project folder:
 
 ```bash
-cd infinite-scrolling-gallery
+cd Infinite-Scroll
 ```
 
 3. Open the `index.html` file in your preferred web browser.
